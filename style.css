@@ -1,0 +1,59 @@
+body{
+    background-color: #ccc;
+    width: 100%;
+}
+
+main{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2em;
+    border: solid ;
+}
+
+.column{
+    width: 20%;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    border: solid ;
+}
+img{
+    width: 200px;
+}
+
+
+
+.nombre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+.meses{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+    background-color: aliceblue;
+}
+thead{
+    background-color: brown;
+}
+
+table, th, tr, td{
+    border: 1px solid ;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+}
+

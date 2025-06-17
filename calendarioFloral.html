@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Floral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body{
+    background-color: #ccc;
+    width: 100%;
+}
+
+main{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2em;
+    border: solid ;
+}
+
+.column{
+    width: 20%;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    border: solid ;
+}
+img{
+    width: 200px;
+}
+
+
+
+.nombre{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+.meses{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+    background-color: aliceblue;
+}
+thead{
+    background-color: brown;
+}
+
+table, th, tr, td{
+    border: 1px solid ;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+}
+</style>
+
+<body>
+    <main>
+        <div class="tabla" id="tabla">
+
+            <table>
+
+                <caption>Calendario floral</caption>
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Aporte</th>
+                        <th class="mes" colspan="4">Ene</th>
+                        <th class="mes" colspan="4">Feb</th>
+                        <th class="mes" colspan="4">Mar</th>
+                        <th class="mes" colspan="4">Abr</th>
+                        <th class="mes" colspan="4">May</th>
+                        <th class="mes" colspan="4">Jun</th>
+                        <th class="mes" colspan="4">Jul</th>
+                        <th class="mes" colspan="4">Ago</th>
+                        <th class="mes" colspan="4">Sep</th>
+                        <th class="mes" colspan="4">Oct</th>
+                        <th class="mes" colspan="4">Nov</th>
+                        <th class="mes" colspan="4">Dic</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                   
+
+                     <tr>
+                        <td><img src="img/Encenillo.jpg" alt=""></td>
+                        <td>Encenillo (Weinmannia tomentosa)</td>
+                        <td>Nectar</td>
+                        <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+
+                   <tr>
+                        <td><img src="img/uvito de monte.jpg" alt=""></td>
+                        <td> Uvito de monte (Cavendishia pubescens) </td>
+                        <td>Nectar</td>
+                        <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/roble.jpg" alt=""></td>
+                        <td> Roble (Quercus humboldtii) </td>
+                        <td>Nectar/Polen</td>
+                       <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/diente de leon.jpg" alt=""></td>
+                        <td> Diente de leon (Taraxacum officinale) </td>
+                        <td>Polen</td>
+                       <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/amarrabollo.jpeg" alt=""></td>
+                        <td> Amarrabolos (Meriania nobilis) </td>
+                        <td>Nectar</td>
+                        <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/cavendishia capitulata.jpg" alt=""></td>
+                        <td> Cavendishia capitulata </td>
+                        <td>Nectar</td>
+                        <td></td><td></td><td></td> <td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td> <td></td><td></td><td></td><td>x</td><td>x</td><td>x</td>
+                        <td>x</td> <td>x</td><td>x</td><td></td> <td></td> <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+</body>
+
+</html>
